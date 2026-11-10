@@ -1,7 +1,7 @@
 """Unit tests for Indian Day Trader Multi-Agent Consensus System."""
 
 import unittest
-from engine.data_provider import fetch_stock_candles, get_market_status
+from engine.data_provider import fetch_stock_candles
 from engine.market_clock import get_market_phase
 from engine.agents.orb_agent import ORBAgent
 from engine.agents.momentum_agent import MomentumAgent

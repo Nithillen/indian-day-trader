@@ -3,7 +3,8 @@
 import datetime
 from typing import Dict, List, Optional
 from engine.agents.consensus_moderator import ConsensusModerator
-from engine.data_provider import TOP_NSE_STOCKS, fetch_stock_candles, get_market_status
+from engine.data_provider import TOP_NSE_STOCKS, fetch_stock_candles
+from engine.market_clock import get_market_phase
 from engine.signals.trade_card import DayTradeSignal
 
 
